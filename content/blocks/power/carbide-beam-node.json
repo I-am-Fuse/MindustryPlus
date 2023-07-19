@@ -5,6 +5,7 @@ type: BeamNode
 health: 120
 range: 16
 fogRadius: 1
+laserColor1: 50477b
 laserColor2: c9a5c8
 consumes: {
    powerBuffered: 1000
