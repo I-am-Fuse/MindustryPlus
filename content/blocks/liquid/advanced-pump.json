@@ -1,7 +1,7 @@
 {
 type: pump
 name: Advanced Pump
-description: Pumps and outputs liquids. Requires nitrogen. Better than original.
+description: Pumps and outputs liquids. Requires nitrogen.
 size: 3
 pumpAmount: 0.2222222
 liquidCapacity: 240
