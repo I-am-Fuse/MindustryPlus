@@ -1,6 +1,6 @@
 {
 name: Carbide Beam Node
-description: Transmits power to other blocks orthogonally. Stores a small amount of power. Better than original.
+description: Transmits power to other blocks orthogonally. Stores a small amount of power.
 type: BeamNode
 health: 120
 range: 16
