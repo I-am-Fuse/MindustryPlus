@@ -1,7 +1,7 @@
 {
 type: WallCrafter
 name: Large Cliff Crusher
-description: Crushes walls, outputting sand indefinitely. Requires power. Efficiency varies based on type of wall. Better than original.
+description: Crushes walls, outputting sand indefinitely. Requires power. Efficiency varies based on type of wall.
 consumePower: 0.15
 drillTime: 60
 size: 3
