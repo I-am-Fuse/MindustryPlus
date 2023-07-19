@@ -1,0 +1,23 @@
+type: BeamNode
+name: Diagonal Beam Node
+Transmits power to other blocks diagonally. Stores a small amount of power.
+health: 90
+range: 10
+fogRadius: 1
+laserColor2: a0b0c8
+consumes: {
+   powerBuffered: 1000
+   }
+category: power
+research: {
+   parent: beam-node
+   objectives: [
+      {
+      type: OnSector
+      preset: atlas
+      }
+      ]
+   }
+requirements: [
+   tungsten/8
+]
