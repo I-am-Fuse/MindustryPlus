@@ -1,6 +1,6 @@
 type: BeamNode
 name: Diagonal Beam Node
-Transmits power to other blocks diagonally. Stores a small amount of power.
+description: Transmits power to other blocks diagonally. Stores a small amount of power.
 health: 90
 range: 10
 fogRadius: 1
