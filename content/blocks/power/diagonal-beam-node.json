@@ -5,6 +5,7 @@ health: 90
 range: 10
 fogRadius: 1
 laserColor2: a0b0c8
+allowDiagonal: true
 consumes: {
    powerBuffered: 1000
    }
