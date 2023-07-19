@@ -1,0 +1,18 @@
+{
+name: Carbide Radar
+description: Gradually uncovers terrain and enemy units in a extreme large radius. Requires power.
+type: Radar
+buildVisibility: fogOnly
+outlineColor: 4a4b53
+fogRadius: 70
+consumes: {
+   power: 1
+   }
+requirements: [
+   silicon/50
+   graphite/50
+   carbide/70
+   ]
+category: effect
+research: radar
+}

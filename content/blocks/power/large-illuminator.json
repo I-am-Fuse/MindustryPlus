@@ -1,0 +1,19 @@
+{
+type: LightBlock
+name: Large Illuminator
+description: Emits light.
+size: 3
+buildVisibility: lightingOnly
+brighteness: 1.75
+radius: 300
+consumes: {
+   power: 0.16
+   }
+requirements: [
+   graphite/20
+   silicon/12
+   plastanium/10
+   ]
+category: effect
+research: illuminator
+}

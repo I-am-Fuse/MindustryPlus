@@ -1,0 +1,19 @@
+{
+name: Carbide Beam Node
+description: Transmits power to other blocks orthogonally. Stores a small amount of power. Better than original.
+type: BeamNode
+consumesPower: true
+outPuts: true
+health: 120
+range: 16
+fogRadius: 1
+consumes: {
+   powerBuffered: 1000
+   }
+requirements: [
+   beryllium/3
+   carbide/5
+   ]
+category: power
+research: beam-node
+}

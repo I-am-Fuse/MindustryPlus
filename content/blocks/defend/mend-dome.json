@@ -1,0 +1,32 @@
+{
+type: MendProjector
+name: Mend Dome
+description: Repairs blocks in its vicinity. Requires silicon and phase fabric to operate.
+size: 3
+consumes: {
+   power: 6.5
+   items: {
+      items: [
+         silicon/1
+         phase-fabric/1
+         ]
+      boost: false
+      }
+   }
+range: 220
+healPercent: 24
+hasBoost: false
+reload: 300
+scaledHealth: 80
+research: mend-projector
+category: effect
+phaseBoost: 0
+phaseRangeBoost: 0
+requirements: [
+lead/170
+titanium/120
+silicon/100
+graphite/70
+phase-fabric/85
+   ]
+}

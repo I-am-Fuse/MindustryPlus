@@ -1,0 +1,9 @@
+{
+color: add8e6
+description: Used in energy generation and special unit production. Flammable and explosive.
+name: Oxygen
+gas: true
+explosiveness: 1
+flammability: 1
+research: water
+}

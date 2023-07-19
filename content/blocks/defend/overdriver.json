@@ -1,0 +1,25 @@
+{
+type: OverdriveProjector
+name: Overdriver
+description: Increases speed of nearby buildings. Optionally uses silicon to boost range and efficiency.
+size: 1
+speedBoost: 1.2
+range: 30
+consumes: {
+   power: 0.8
+   items: {
+      items: [
+         silicon/1
+         ]
+    booster: true
+    optional: true
+      }
+   }
+research: mender
+category: effect
+requirements: [
+lead/45
+titanium/25
+silicon/25
+   ]
+}

@@ -1,0 +1,26 @@
+{
+type: DirectionalForceProjector
+name: Barrier Projector
+description: Creates a linear barrier in a certain direction, protecting buildings and units behind the line from damage. Overheats if too much damage is sustained.
+size: 3
+width: 50
+length: 50
+shieldHealth: 2000
+cooldownNormal: 3
+cooldownLiquid: 2.4
+cooldownBrokenBase: 0.35
+consumes: {
+   power: 4
+   liquid: {
+      liquid: hydrogen
+      amount: 0.08
+      }
+   }
+requirements: [
+silicon/100
+surge-alloy/100
+tungsten/150
+   ]
+research: regen-projector
+category: effect
+}

@@ -1,0 +1,52 @@
+{
+type: GenericCrafter
+name: Oxygen Concentrator
+description: Concentrates oxygen from the atmosphere.
+size: 2
+craftEffect: none
+craftTime: 60
+hasPower: true
+hasLiquids: true
+hasItems: false
+liquidsCapacity: 20
+ambientSound: extractLoop
+ambientSoundVolume: 0.035
+outputLiquid: oxygen/0.2
+outputsLiquid: true
+solid: true
+rotate: false
+drawer: [
+      {
+      type: DrawRegion
+      suffix: -bottom
+      }
+      {
+      type: DrawLiquidTile
+      drawLiquid: oxygen
+      padding: 1
+      }
+      {
+      //I do not know why, but without this DrawRegion, the main sprite is not drawn.
+      type: DrawRegion
+      suffix: ""
+      }
+      {
+      type: DrawRegion
+      suffix: -top
+      }
+   ]
+consumes: {
+   power: 1.5
+   }
+requirements: [
+   graphite/40
+   titanium/30
+   metaglass/30
+   ]
+category: crafting
+research: {
+   parent: silicon-smelter
+   objectives: [
+      ]
+   }
+}
