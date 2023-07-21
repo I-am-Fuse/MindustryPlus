@@ -50,7 +50,7 @@ range: 130
     }
   }
     {
-    name: "repair-beam-weapon-center"
+    name: "repair-beam-weapon-center-alternative"
     top: true
     type: RepairBeamWeapon
     x: 11
