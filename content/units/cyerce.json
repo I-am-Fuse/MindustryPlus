@@ -26,7 +26,7 @@
     ejectEffect: none
     hitSize: 36
     collidesAir: false
-    lifetime: 147
+    lifetime: 97.5
     hitEffect: {
       type: MultiEffect
       effects: [blastExplosion, greenCloud]
@@ -38,7 +38,7 @@
     weaveMag: 5
     weaveScale: 7.5
     speed: 0.55
-    drag: -0.035
+    drag: -0.008
     homingPower: 0.105
     collideFloor: true
     trailColor: 84f491
@@ -49,7 +49,7 @@
     }
   }
     {
-    name: repair-beam-weapon-center
+    name: "repair-beam-weapon-center"
     type: RepairBeamWeapon
     x: 11
     y: -10
