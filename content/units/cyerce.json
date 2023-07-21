@@ -1,9 +1,10 @@
 {
+range: 130
   weapons: [
   {
   mirror: false
   rotate: true
-  reload: 200
+  reload: 165
   y: 0
   x: 0
   shootSound: mineDeploy
@@ -17,7 +18,7 @@
     layer: 10
     shootEffect: none
     ignoreRotation: true
-    maxRange: 80
+    maxRange: 50
     healPercent: 10
     backColor: 84f491
     frontColor: ffffff
@@ -26,7 +27,7 @@
     ejectEffect: none
     hitSize: 36
     collidesAir: false
-    lifetime: 97.5
+    lifetime: 87
     hitEffect: {
       type: MultiEffect
       effects: [blastExplosion, greenCloud]
@@ -37,8 +38,8 @@
     shrinkY: 0
     weaveMag: 5
     weaveScale: 7.5
-    speed: 0.55
-    drag: -0.008
+    speed: 0.7
+    drag: -0.025
     homingPower: 0.105
     collideFloor: true
     trailColor: 84f491
