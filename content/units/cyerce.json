@@ -51,6 +51,7 @@ range: 130
   }
     {
     name: "repair-beam-weapon-center"
+    top: true
     type: RepairBeamWeapon
     x: 11
     y: -10
