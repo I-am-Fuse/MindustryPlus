@@ -1,5 +1,6 @@
 {
   weapons: [
+  {
   mirror: false
   rotate: true
   reload: 200
@@ -43,6 +44,7 @@
     splashDamage: 125
     splashDamageRadius: 55
     }
+  }
     {
     name: repair-beam-weapon-center
     type: RepairBeamWeapon
@@ -53,6 +55,7 @@
     repairSpeed: 0.7
     bullet: {
     maxRange: 13
+      }
     }
   ]
 }
