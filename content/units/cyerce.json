@@ -27,7 +27,10 @@
     hitSize: 36
     collidesAir: false
     lifetime: 147
-    hitEffect: MultiEffect: [blastExplosion, greenCloud]
+    hitEffect: {
+      type: MultiEffect
+      effects: [blastExplosion, greenCloud]
+      }
     keepVelocity: false
     innacuracy: 0.5
     shrinkX: 0
