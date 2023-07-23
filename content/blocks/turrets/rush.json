@@ -7,25 +7,14 @@ range: 145
 reload: 90
 recoil: 1.5
 shake: 2
-shootSound: bang
+shootSound: mineDeploy
 shoot: {
   shots: 3
-  shotDelay: 2
+  shotDelay: 4
   }
 innacuracy: 10
 ammoTypes: {
-  graphite: {
-    type: BasicBulletType
-    sprite: mine-bullet
-    width: 8
-    height: 8
-    lifetime: 5
-    fragBullets: 1
-    fragOnHit: false
-    fragSpread: 0
-    despawnSound: mineDeploy
-    despawnEffect: none
-    fragBullet: {
+  blast-compound: {
       type: BasicBulletType
       sprite: mine-bullet
       width: 8
@@ -41,7 +30,7 @@ ammoTypes: {
       lifetime: 87
       hitEffect: blastExplosion
       keepVelocity: false
-      innacuracy: 4.5
+      innacuracy: 3.5
       shrinkX: 0
       shrinkY: 0
       weaveMag: 5
@@ -50,61 +39,10 @@ ammoTypes: {
       drag: -0.015
       homingPower: 0.05
       collideFloor: true
-      trailWidth: 4.5
-      trailLength: 12
+      trailWidth: 3
+      trailLength: 8
       splashDamage: 55
       splashDamageRadius: 32
-      }
-    }
-thorium: {
-    type: BasicBulletType
-    sprite: mine-bullet
-    width: 8.5
-    height: 8.5
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    lifetime: 5
-    fragBullets: 1
-    fragOnHit: false
-    fragSpread: 0
-    backColor: cb8ebf
-    frontColor: f9a3c7
-    despawnSound: mineDeploy
-    despawnEffect: none
-    fragBullet: {
-      type: BasicBulletType
-      sprite: mine-bullet
-      width: 8.5
-      height: 8.5
-      layer: 10
-      shootEffect: none
-      ignoreRotation: true
-      maxRange: 50
-      hitSound: explosion
-      ejectEffect: none
-      hitSize: 24
-      collidesAir: false
-      lifetime: 87
-      hitEffect: blastExplosion
-      keepVelocity: false
-      innacuracy: 4
-      shrinkX: 0
-      shrinkY: 0
-      weaveMag: 5
-      weaveScale: 4
-      speed: 0.6
-      drag: -0.015
-      homingPower: 0.05
-      collideFloor: true
-      trailWidth: 4.6
-      trailLength: 12
-      splashDamage: 85
-      splashDamageRadius: 40
-      reloadMultiplier: 0.75
-      backColor: cb8ebf
-      frontColor: f9a3c7
-      trailColor: cb8ebf
-      }
     }
   }
 category: turret
