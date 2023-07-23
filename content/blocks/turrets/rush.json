@@ -23,6 +23,8 @@ ammoTypes: {
     fragBullets: 1
     fragOnHit: false
     fragSpread: 0
+    despawnSound: mineDeploy
+    despawnEffect: none
     fragBullet: {
       type: BasicBulletType
       sprite: mine-bullet
@@ -65,6 +67,8 @@ thorium: {
     fragSpread: 0
     backColor: cb8ebf
     frontColor: f9a3c7
+    despawnSound: mineDeploy
+    despawnEffect: none
     fragBullet: {
       type: BasicBulletType
       sprite: mine-bullet
