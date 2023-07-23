@@ -9,6 +9,8 @@ reload: 90
 recoil: 1.5
 shake: 2
 shootY: 9.45
+targetAir: false
+shootSound: mineDeploy
 shoot: {
   shots: 3
   shotDelay: 4
