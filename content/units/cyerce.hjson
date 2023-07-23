@@ -4,7 +4,7 @@ range: 130
   {
   mirror: false
   rotate: true
-  reload: 165
+  reload: 105
   y: 0
   x: 0
   shootSound: mineDeploy
