@@ -105,7 +105,7 @@ thorium: {
       }
     }
   }
-category: turrets
+category: turret
 requirements: [
   copper/120
   silicon/80
