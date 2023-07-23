@@ -2,13 +2,13 @@
 type: itemTurret
 name: Rush
 description: Fires homing torpedoes at enemy targets.
+health: 920
 size: 2
 range: 145
 reload: 90
 recoil: 1.5
 shake: 2
-shootSound: bang
-shootY: 10
+shootY: 9.45
 shoot: {
   shots: 3
   shotDelay: 4
@@ -37,7 +37,7 @@ ammoTypes: {
       weaveMag: 5
       weaveScale: 4
       speed: 0.7
-      drag: -0.015
+      drag: -0.017
       homingPower: 0.05
       collideFloor: true
       trailWidth: 3
