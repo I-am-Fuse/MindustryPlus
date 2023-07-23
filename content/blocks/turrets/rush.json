@@ -61,6 +61,8 @@ thorium: {
     sprite: mine-bullet
     width: 8.5
     height: 8.5
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
     lifetime: 5
     fragBullets: 1
     fragOnHit: false
@@ -111,4 +113,10 @@ requirements: [
   silicon/80
   titanium/80
   ]
+research: salvo
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}
 }
