@@ -1,3 +1,3 @@
 # MindustryPlus
 Random Anuken/Mindustry mod.
-Please, dont suggest too hard/impossible on json ideas.
+Please, dont suggest ideas to this mod.
