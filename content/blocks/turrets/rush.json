@@ -1,51 +1,40 @@
 {
 type: itemTurret
 name: Rush
-description: Fires homing torpedoes at enemy targets.
+description: Fires large bullets at ground targets.
 health: 920
 size: 2
 range: 145
-reload: 90
-recoil: 1.5
-shake: 2
+reload: 100
+recoil: 1.8
+shake: 2.5
 shootY: 9.45
 targetAir: false
-shootSound: mineDeploy
-shoot: {
-  shots: 3
-  shotDelay: 4
-  }
-innacuracy: 10
+shootSound: bang
+innacuracy: 4
+ammoUseEffect: casing3
 ammoTypes: {
-  blast-compound: {
+  graphite: {
       type: BasicBulletType
-      sprite: mine-bullet
-      width: 8
-      height: 8
-      layer: 10
-      shootEffect: none
-      ignoreRotation: true
-      maxRange: 50
-      hitSound: explosion
-      ejectEffect: none
-      hitSize: 22
-      collidesAir: false
-      lifetime: 87
-      hitEffect: blastExplosion
-      keepVelocity: false
-      innacuracy: 3.5
-      shrinkX: 0
-      shrinkY: 0
-      weaveMag: 5
-      weaveScale: 4
-      speed: 0.7
-      drag: -0.017
-      homingPower: 0.05
-      collideFloor: true
-      trailWidth: 3
-      trailLength: 8
-      splashDamage: 55
-      splashDamageRadius: 32
+      hitSize: 4.6
+      width: 13
+      height: 19
+      shootEffect: shootBig
+      knockback: 0.4
+      speed: 7
+      damage: 60
+      lifetime: 25
+    }
+  thorium: {
+      type: BasicBulletType
+      hitSize: 4.8
+      width: 15
+      height: 21
+      shootEffect: shootBig
+      knockback: 0.8
+      speed: 7.5
+      damage: 85
+      lifetime: 25
     }
   }
 category: turret
