@@ -11,6 +11,7 @@ consumes: {
       amount: 0.0333333333
       }
    }
+research: reinforced-pump
 category: liquid
 requirements: [
    beryllium/70
