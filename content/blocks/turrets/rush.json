@@ -11,7 +11,7 @@ shake: 2.5
 shootY: 9.45
 targetAir: false
 shootSound: bang
-innacuracy: 4
+innacuracy: 8.5
 ammoUseEffect: casing3
 ammoTypes: {
   graphite: {
