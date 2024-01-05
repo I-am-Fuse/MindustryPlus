@@ -1,1 +1,1 @@
-En: Do not suggest ANY ideas to my mod. Ru: Не предлагайте НИКАКИХ идей для моего мода.
+This is a small mod that was created for fun. There will be no new items or units here. I just recreate my ideas that pop into my head.
