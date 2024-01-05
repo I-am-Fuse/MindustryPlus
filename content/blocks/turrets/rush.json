@@ -8,7 +8,7 @@ range: 145
 reload: 100
 recoil: 1.8
 shake: 2.5
-shootY: 9.45
+shootY: 9
 targetAir: false
 shootSound: bang
 innacuracy: 8.5
