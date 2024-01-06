@@ -2,7 +2,7 @@
 type: MendProjector
 name: Large Mender Wall
 description: Protects structures from enemy projectiles. Periodically repairs neighboring blocks.
-health: 1280
+health: 1520
 size: 2
 reload: 200
 range: 16
