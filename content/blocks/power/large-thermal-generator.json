@@ -1,0 +1,21 @@
+{
+type: ThermalGenerator
+description: Generates power when placed in hot locations.
+Name: Large Thermal Generator
+powerProduction: 2.2
+generateEffect: redgeneratespark
+effectChance: 0.024
+size: 3
+floating: true
+ambientSound: hum
+ambientSoundVolume: 0.16
+category: power
+requirements: [
+   graphite/80
+   thorium/50
+   lead/70
+   silicon/80
+   plastanium/60
+   ]
+research: thermal-generator
+}
