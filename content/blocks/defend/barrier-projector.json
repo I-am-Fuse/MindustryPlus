@@ -5,7 +5,7 @@ description: Creates a linear barrier in a certain direction, protecting buildin
 size: 3
 width: 50
 length: 50
-shieldHealth: 2000
+shieldHealth: 2200
 cooldownNormal: 3
 cooldownLiquid: 2.4
 cooldownBrokenBase: 0.35
@@ -18,8 +18,8 @@ consumes: {
    }
 requirements: [
 silicon/100
-surge-alloy/100
-tungsten/150
+surge-alloy/80
+tungsten/155
    ]
 research: regen-projector
 category: effect
