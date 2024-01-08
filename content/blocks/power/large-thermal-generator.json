@@ -2,7 +2,7 @@
 type: ThermalGenerator
 description: Generates power when placed in hot locations.
 Name: Large Thermal Generator
-powerProduction: 2.2
+powerProduction: 2.4
 generateEffect: redgeneratespark
 effectChance: 0.024
 size: 3
