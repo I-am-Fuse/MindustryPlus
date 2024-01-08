@@ -13,9 +13,9 @@ category: power
 requirements: [
    graphite/80
    thorium/50
-   lead/70
-   silicon/80
+   silicon/90
    plastanium/60
+   surge-alloy/20
    ]
-research: differenteal-generator
+research: differential-generator
 }
