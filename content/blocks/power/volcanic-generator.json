@@ -1,7 +1,7 @@
 {
 type: ThermalGenerator
-description: Generates power when placed in hot locations.
-Name: Large Thermal Generator
+description: Generates large amounts of power when placed in hot locations.
+Name: Volcanic Generator
 powerProduction: 2.4
 generateEffect: redgeneratespark
 effectChance: 0.024
