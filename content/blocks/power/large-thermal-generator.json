@@ -1,7 +1,7 @@
 {
 type: ThermalGenerator
 description: Generates large amounts of power when placed in hot locations.
-Name: Volcanic Generator
+Name: Large Thermal Generator
 powerProduction: 2.4
 generateEffect: redgeneratespark
 effectChance: 0.024
@@ -11,11 +11,19 @@ ambientSound: hum
 ambientSoundVolume: 0.16
 category: power
 requirements: [
-   graphite/80
-   thorium/50
+   graphite/100
+   thorium/60
    silicon/90
    plastanium/60
-   surge-alloy/20
+   surge-alloy/30
    ]
-research: differential-generator
+research: {
+   parent: thermal-generator
+   objectives: [
+      {
+      type: OnSector
+      preset: desolate-rift
+      }
+      ]
+   }
 }
