@@ -1,3 +1,11 @@
 {
-research: overdriver
+research: {
+   parent: overdriver
+   objectives: [
+      {
+      type: SectorComplete
+      preset: impact0078
+      }
+      ]
+   }
 }
