@@ -1,0 +1,18 @@
+{
+type: DirectionLiquidBridge
+name: Reinforced Phase Conduit
+description: Transports fluids over structures or terrain. Longer range than the reinforced bridge conduit, but requires power.
+health: 50
+range: 10
+category: liquid
+research: reinforced-bridge-conduit
+requirements: [
+   tungsten/25
+   graphite/12
+   phase-fabric/6
+   ]
+hasPower: true
+consumes: {
+   power: 0.25
+   }
+}
