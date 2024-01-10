@@ -7,7 +7,7 @@ speed: 4
 range: 10
 buildCostMultiplier: 2
 category: distribution
-research: surge-conveyor
+research: reinforced-pump
 requirements: [
    tungsten/30
    phase-fabric/5
