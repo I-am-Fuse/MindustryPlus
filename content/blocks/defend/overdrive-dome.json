@@ -1,3 +1,11 @@
 {
-research: overdrive-projector
+research: {
+   parent: overdrive-projector
+   objectives: [
+      {
+      type: SectorComplete
+      preset: impact0078
+      }
+      ]
+   }
 }
