@@ -18,7 +18,15 @@ healPercent: 24
 hasBoost: false
 reload: 300
 scaledHealth: 80
-research: mend-projector
+research: {
+   parent: mend-projector
+   objectives: [
+      {
+      type: SectorComplete
+      preset: impact0078
+      }
+      ]
+   }
 category: effect
 phaseBoost: 0
 phaseRangeBoost: 0
