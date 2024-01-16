@@ -1,0 +1,15 @@
+{
+type: MessageBlock
+size: 2
+name: Reinforced Large Message
+description: Stores a message for communication between allies.
+maxTextLength: 980
+maxNewLines: 48
+requirements: [
+   graphite/40
+   beryllium/20
+   tungsten/5
+]
+category: logic
+research: reinforced-message
+}
