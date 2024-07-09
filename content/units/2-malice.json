@@ -1,6 +1,6 @@
 {
 name: Malice
-description: Rapidly fires standard bullets at enemy targets.
+description: Fires a barrage of standard bullets at enemy targets.
 template: ErekirUnitType
 type: mech
 health: 1600
