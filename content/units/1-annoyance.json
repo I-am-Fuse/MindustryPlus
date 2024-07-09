@@ -1,6 +1,6 @@
 {
 name: Annoyance
-description: Fires continuous jet of flame. Capable of flight.
+description: Fires continuous jet of flame at enemy targets. Capable of flight.
 template: ErekirUnitType
 type: mech
 health: 780
