@@ -4,7 +4,7 @@ description: Fires continuous jet of flame. Capable of flight.
 template: ErekirUnitType
 type: mech
 health: 780
-armor: 4
+armor: 3
 hitSize: 8
 speed: 0.65
 canBoost: true
