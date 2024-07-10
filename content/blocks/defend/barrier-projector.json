@@ -1,7 +1,7 @@
 {
 type: DirectionalForceProjector
 name: Barrier Projector
-description: Creates a linear barrier in a certain direction, protecting buildings and units behind the line from damage. Overheats if too much damage is sustained.
+description: Creates a linear barrier in a certain direction, protecting buildings and units behind the line from damage. Requires hydrogen. Overheats if too much damage is sustained.
 size: 3
 width: 50
 length: 50
