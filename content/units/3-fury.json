@@ -33,7 +33,7 @@ weapons:
    homingDelay: 4
    lifetime: 30
    speed: 5
-   damage: 47.5
+   damage: 77.5
    height: 18
    width: 10.5
    shootEffect: sparkShoot
