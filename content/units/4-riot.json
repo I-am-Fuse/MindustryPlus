@@ -49,7 +49,7 @@ weapons:
    frontColor: ffffff
    backColor: f3e979
    trailColor: f3e979
-   trailWidth: 7
+   trailWidth: 6
    trailLength: 10
    trailInterp: slope
    trailEffect: none
