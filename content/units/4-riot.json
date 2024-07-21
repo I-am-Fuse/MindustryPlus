@@ -40,7 +40,7 @@ weapons:
    lifetime: 185
    speed: 3
    splashDamage: 455
-   splashDamageRadius: 60
+   splashDamageRadius: 30
    height: 26
    width: 20
    shootEffect: shootBig2
